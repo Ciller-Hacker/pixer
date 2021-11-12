@@ -8,7 +8,7 @@
 section{
     padding: 30px 100px;
     background-color: rgb(243, 243, 199);
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -18,6 +18,9 @@ section{
 .left{
     width: 35%;
     background-color: rgb(56, 53, 53);
+    padding: 20px;
+    padding-bottom: 0;
+   
 }
 
 hr{
@@ -25,7 +28,8 @@ hr{
     height: 2px;
     border: none;
    background-color:rgb(241, 241, 153) ;
-   margin-bottom: 250px;
+   margin-bottom: 280px;
+  
 }
 img{
     border-radius: 50%;
@@ -41,4 +45,34 @@ img{
 }
 .right{
     width: 65%;
+    padding: 30px 20px;
+    justify-content: space-between;
+}
+.right-text{
+     margin-bottom: 20px;
+}
+
+.umber{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 44px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    box-shadow: 0 -3px 3px 2px #222;
+    position: absolute;
+    width: 588px;
+    left: 650px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    padding-right: 5px;
+    opacity: 0.5;
 }
