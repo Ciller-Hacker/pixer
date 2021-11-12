@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    
+}
+
+section{
+    padding: 30px 100px;
+    background-color: rgb(243, 243, 199);
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 35%;
+    background-color: rgb(56, 53, 53);
+}
+
+hr{
+    width: 50px;
+    height: 2px;
+    border: none;
+   background-color:rgb(241, 241, 153) ;
+   margin-bottom: 250px;
+}
+img{
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    
+}
+.right{
+    width: 65%;
+}
